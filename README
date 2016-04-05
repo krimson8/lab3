@@ -1,0 +1,35 @@
+This is readme . 
+
+To compile : ~$make
+To execute : ~$./weight < cow.in
+
+QuestionB:
+time insertion sort used > time sort() used
+
+Case 1000:
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.015 seconds
+v1/v2 are the same.
+
+Case 10000:
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.703 seconds
+v1/v2 are the same.
+
+Case 100000:
+sort(): 0.031 seconds
+v1/v2 are different.
+insertion_sort(): 68.594 seconds
+v1/v2 are the same.
+
+Case 1000000:
+sort(): 0.313 seconds
+v1/v2 are different.
+insertion_sort(): 5476.34 seconds
+v1/v2 are the same.
+
+
+
+
